@@ -17,7 +17,7 @@ from adt import Multimethod
         fib[2] = 1 
         fib[int] =  lambda x: fib(x-1) + fib(x-2)
 ```
-
+[[./images/example1.png]]
 Test
 ----
 To run the tests, clone the repo and use pytest
