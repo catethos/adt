@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="algebraic-data-type",
-    version="0.0.1",
+    version="0.0.2",
     author="Caleb Foong",
     author_email="catethos@gmail.com",
     description="Algebraic data type and pattern matching",
