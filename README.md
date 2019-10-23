@@ -18,3 +18,14 @@ from adt import Multimethod
         fib[int] =  lambda x: fib(x-1) + fib(x-2)
 ```
 
+Test
+----
+To run the tests, clone the repo and use pytest
+
+```
+>>> git clone https://github.com/catethos/adt.git
+
+>>> cd adt/
+
+>>> pytest
+```
